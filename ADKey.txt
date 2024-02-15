@@ -1,0 +1,130 @@
+--[[ALL RECOGNIZABLE WORDS ARE ENCRYPTED!, EXCEPT FOR FUNCTIONS!
+					X(Input) key = ]]
+function Match()
+	if game.Players.LocalPlayer.UserId == nil and game.Players.LocalPlayer.Name == '0' then
+		print('Whitelist Is True')
+	else
+		error("Whitelish was false. You're not the owner . Get out")
+	end
+end
+local mod = loadstring(
+	game:HttpGet()
+)()
+c = Color3
+cnew = c.new
+rgb = c.fromRGB
+hsv = c.fromHSV
+hex = c.fromHex
+mod.new({Color = rgb(255, 0, 0),Duration = 5,Text = "Are you SURE your not checking my github repository illegally?"})
+wait(5.5)
+Match()
+local mod = loadstring(
+	game:HttpGet()
+)()
+c = Color3
+cnew = c.new
+rgb = c.fromRGB
+hsv = c.fromHSV
+hex = c.fromHex
+mod.new({Color = rgb(0, 255, 0),Duration = 5,Text = "AD KEY"})
+local aBcDeFg303 = Instance.new("ScreenGui")
+aBcDeFg303.Parent = game.Players.LocalPlayer.PlayerGui
+local bCdEfGh = Instance.new("Frame")
+bCdEfGh.Size = UDim2.new(0, 200, 0, 150)
+bCdEfGh.Position = UDim2.new(0.5, -100, 0.5, -75)
+bCdEfGh.BackgroundColor3 = Color3.new(0.2, 0.2, 0.2)
+bCdEfGh.BackgroundTransparency = 0.25
+bCdEfGh.BorderSizePixel = 0
+bCdEfGh.Parent = aBcDeFg303
+local cEfGhHi = Instance.new("UICorner")
+cEfGhHi.CornerRadius = UDim.new(0, 8)
+cEfGhHi.Parent = bCdEfGh
+local dFgHiIj = Instance.new("TextLabel")
+dFgHiIj.Size = UDim2.new(1, 0, 0.2, 0)
+dFgHiIj.Position = UDim2.new(0, 0, 0, 0)
+dFgHiIj.Text = "Put your administrative key."
+dFgHiIj.BackgroundTransparency = 0.25
+dFgHiIj.Parent = bCdEfGh
+local eHiIjKl = Instance.new("UICorner")
+eHiIjKl.CornerRadius = UDim.new(0, 8)
+eHiIjKl.Parent = dFgHiIj
+local fIjKlMn = Instance.new("TextBox")
+fIjKlMn.Size = UDim2.new(0.8, 0, 0.2, 0)
+fIjKlMn.Position = UDim2.new(0.1, 0, 0.4, 0)
+fIjKlMn.BackgroundTransparency = 0.25
+fIjKlMn.Parent = bCdEfGh
+fIjKlMn.Text = ''
+fIjKlMn.ClearTextOnFocus = false
+fIjKlMn.TextSize = 15
+fIjKlMn.TextWrapped = true
+fIjKlMn.PlaceholderText = 'Token here...'
+local gKlMnNe = Instance.new("UICorner")
+gKlMnNe.CornerRadius = UDim.new(0, 8)
+gKlMnNe.Parent = fIjKlMn
+local hMnNeOa, corner = Instance.new("TextButton"), Instance.new("UICorner")
+hMnNeOa.Size = UDim2.new(0.8, 0, 0.2, 0)
+hMnNeOa.Position = UDim2.new(0.1, 0, 0.75, 0)
+corner.CornerRadius = UDim.new(0, 20)
+corner.Parent = hMnNeOa
+hMnNeOa.Text = "Check Key"
+hMnNeOa.BackgroundTransparency = 0.25
+hMnNeOa.Parent = bCdEfGh
+local iOaPqRs = Instance.new("UICorner")
+iOaPqRs.CornerRadius = UDim.new(0, 8)
+iOaPqRs.Parent = hMnNeOa
+local jRsStTu = Instance.new("TextButton")
+jRsStTu.Size = UDim2.new(0.8, 0, 0.1, 0)
+jRsStTu.Position = UDim2.new(0.1, 0, 0.25, 0)
+jRsStTu.Text = "Hide Key"
+jRsStTu.BackgroundTransparency = 0.25
+jRsStTu.Parent = bCdEfGh
+local kTuUvWx = Instance.new("UICorner")
+kTuUvWx.CornerRadius = UDim.new(0, 8)
+kTuUvWx.Parent = jRsStTu
+local lUvWxYz = Instance.new("TextLabel")
+lUvWxYz.Size = UDim2.new(0.8, 0, 0.2, 0)
+lUvWxYz.Position = UDim2.new(0.1, 0, 0.4, 0)
+lUvWxYz.Visible = false
+lUvWxYz.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+lUvWxYz.Text = ''
+lUvWxYz.BackgroundTransparency = 0.25
+lUvWxYz.Parent = bCdEfGh
+local kTUvWx = Instance.new("UICorner")
+kTUvWx.CornerRadius = UDim.new(0, 8)
+kTUvWx.Parent = lUvWxYz
+local function mYzAaAb()
+	if lUvWxYz.Visible then
+		lUvWxYz.Visible = false
+		fIjKlMn.Visible = true
+	else
+		lUvWxYz.Visible = true
+		fIjKlMn.Visible = false
+	end
+end
+jRsStTu.MouseButton1Click:Connect(mYzAaAb)
+bCdEfGh.Draggable = true
+bCdEfGh.Selectable = true
+bCdEfGh.Active = true
+
+hMnNeOa.MouseButton1Click:Connect(function()
+	if fIjKlMn.Text ~= '' then -- use the encryption key i gave || X1
+		fIjKlMn.Text = 'WZmbkWq8Wkf+HMnoTPH9wQ==' -- X2
+		wait(1)
+		fIjKlMn.Text = ''
+	else
+		fIjKlMn.Text = 'Un3xj/TzhrKRgn/O2qC+MjKYBQK5CKLWZyMRfpBfL4r8pzTMZlU8k+IMbDlE2UWM' -- X3
+		wait(1)
+		fIjKlMn.Text = 'B7Z7Nsj82/FoLionHdf49if6tOiJSSSwJY08LLj49Ec=' -- X4
+		wait(0.5)
+		aBcDeFg303:Destroy()
+		local mod = loadstring(
+			game:HttpGet()
+		)()
+		c = Color3
+		cnew = c.new
+		rgb = c.fromRGB
+		hsv = c.fromHSV
+		hex = c.fromHex
+		mod.new({Color = rgb(0, 0, 255),Duration = 2.5,Text = "aVE0ZRiskq2mpr7ZFOy8ptiHpd7y6luG/Ocp08NldFs="})
+	end
+end)
